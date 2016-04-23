@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+html, body, .container, #look{
+	width : 100%;
+	height : 100%;
+}
+
+#look{
+	.swiper-slide{
+		width : 100%;
+		height : 100%;
+	}
+}

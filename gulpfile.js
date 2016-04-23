@@ -19,7 +19,7 @@ gulp.task('sass', function(){
             console.error('Error!', err.message);
         })
         .pipe(autoprefixer({
-        	browsers: ['Android >= 2.3', 'iOS7'],
+        	browsers: ['Android >= 2.3', 'iOS >= 7'],
             cascade: true,  //是否美化属性值 默认：true 像这样：
         	remove:true 	//是否去掉不必要的前缀 默认：true
         }))
